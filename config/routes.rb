@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  resources :contacts
   get '/pricing' => 'pages#pricing'
   get '/about' => 'pages#about'
   root 'pages#home'
